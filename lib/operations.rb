@@ -5,11 +5,11 @@ def unsafe?(speed)
      true
   else
      false
-  end #if/else
-end # unsafe?
+  end
+end
 
 
 
 def not_safe?(speed)
   speed < 40 || speed > 60 ? true : false
-end #not_safe?
+end
